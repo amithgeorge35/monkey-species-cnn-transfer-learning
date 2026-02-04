@@ -50,20 +50,6 @@ The project compares model performance using **test accuracy** and **confusion m
 
 You must download the **Monkey Species Image Dataset** separately and place it locally.
 
-### Expected Local Folder Structure
-
-data/
-├── Training Data/
-│ ├── Class_1/
-│ ├── Class_2/
-│ └── ...
-├── Prediction Data/
-│ ├── Class_1/
-│ ├── Class_2/
-│ └── ...
-└── test_error_images/
-└── (10 selected test images for error analysis)
-
 
 - Each class folder must contain image files (`.jpg`, `.png`, `.jpeg`)
 - Folder names must be **consistent across training and prediction data**
@@ -78,8 +64,8 @@ data/
 When run locally, the script will generate:
 
 models/
-├── best_model.keras
-└── tuned.keras
+ best_model.keras
+ tuned.keras
 
 
 These files are intentionally excluded from GitHub.

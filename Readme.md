@@ -64,8 +64,8 @@ You must download the **Monkey Species Image Dataset** separately and place it l
 When run locally, the script will generate:
 
 models/
- best_model.keras
- tuned.keras
+- `models/best_model.keras`
+- `models/tuned.keras`
 
 
 These files are intentionally excluded from GitHub.

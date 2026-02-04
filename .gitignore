@@ -1,0 +1,13 @@
+# datasets
+data/
+
+# virtual environments
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# saved models (optional if large)
+models/

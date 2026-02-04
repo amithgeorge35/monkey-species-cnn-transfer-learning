@@ -77,7 +77,8 @@ These files are intentionally excluded from GitHub.
 > This project requires **Python 3.11**.  
 > TensorFlow does **not** currently support Python 3.14 on Windows.
 
-### 1. Create and activate virtual environment
+## Install dependencies
 ```bash
-py -3.11 -m venv venv
-venv\Scripts\activate
+pip install -r requirements.txt
+```
+
